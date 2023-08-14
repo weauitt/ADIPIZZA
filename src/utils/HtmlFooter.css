@@ -1,0 +1,39 @@
+.footer {
+   margin-bottom: 4rem;
+  }
+  
+  .MainName{
+    margin-left: 5rem;
+    margin-top: 4rem;
+  }
+  
+  .sectionOne {
+    margin-left: 5rem;
+    margin-top: 3rem;
+  }
+  
+  .desc {
+    margin-top: 2rem;
+    color: rgb(77, 77, 77);
+  }
+  
+  .sectionTwo {
+    margin-left: 46rem;
+    margin-top: -138px;
+  }
+  
+  .priceOne h2 {
+    margin-bottom: 20px;
+  }
+  
+  .smallSectionTwo {
+    margin-top: 7px;
+  }
+  
+  .descTwo {
+    margin-top: 1rem;
+    color: rgb(41, 41, 41);
+  }
+  
+  .descThree {
+    color: rgb(41, 41, 41);}

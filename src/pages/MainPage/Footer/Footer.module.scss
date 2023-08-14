@@ -1,0 +1,182 @@
+/* Footer.module.css */
+
+.LowFooter {
+    background-color: rgb(23, 23, 23);
+    height: 220px;
+    display: flex;
+    padding: 70px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.TextFooter {
+    color: white;
+    transform: translateY(-52px);
+    margin: 0 60px;
+    margin-left: 27px;
+
+    h4 {
+        margin-top: 25px;
+    }
+
+    .TextOne {
+        transform: translateY(26px);
+        
+
+        .ADIPIZZA {
+            width: 128px;
+            cursor: pointer;
+        }
+
+        .ADIPIZZA:hover {
+            color: aqua;
+        }
+
+    }
+
+    .aboutAs {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.411);
+        width: 49px;
+    }
+
+    .aboutAs:hover {
+        color: aqua;
+    }
+
+    .job {
+        cursor: pointer;
+        width: 91px
+;
+    }
+
+    .job:hover {
+        color: aqua;
+    }
+
+    .jobOpenings {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.623);
+        width: 91px;
+    }
+
+    .jobOpenings:hover {
+        color: aqua;
+    }
+
+    .contacts {
+        transform: translateY(-10px);
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.623);
+        width: 91px;
+    }
+
+    .contacts:hover {
+        color: aqua;
+    }
+
+    .delivery {
+        cursor: pointer;
+    }
+
+    .delivery:hover {
+        color: aqua;
+    }
+
+    .deliveryAndPayment {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.623);
+        width: 100px;
+    }
+
+    .deliveryAndPayment:hover {
+        color: aqua;
+    }
+}
+
+.CallBy {
+    display: flex;
+    transform: translateX(280px);
+    margin-top: -10px;
+    height: 22px;
+
+    h3 {
+        color: white;
+    }
+}
+
+.ZvonokPo {
+    width: 106px;
+}
+
+.icons {
+    margin-left: 3px;
+    width: 123px;
+
+    .call {
+        width: 20px;
+        margin-left: 5px;
+
+    }
+
+    .megacom {
+        width: 30px;
+        margin-left: 5px;
+
+    }
+
+    .O {
+        width: 19px;
+        margin-left: 8px;
+        margin-top: 10;
+
+    }
+}
+
+.number {
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.861);
+    transform: translateX(-230px);
+    width: 156px;
+    cursor: pointer;
+    height: 22px;
+}
+
+.AcceptForPayment {
+    margin-top: 120px;
+    transform: translateX(-125px);
+
+    p {
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .IconPayment {
+        width: 250px;
+    }
+}
+
+.lowerFooter {
+    display: flex;
+    transform: translateY(230px);
+    height: 40px;
+    margin-top: 20px;
+    color: rgb(166, 166, 166);
+
+    .descOne {
+        width: 85px;
+        margin-left: -68rem;
+        margin-right: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .decsThree {
+        margin-left: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    .decsThree:hover{
+        color: rgb(255, 255, 255);}
+}

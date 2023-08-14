@@ -1,0 +1,81 @@
+.wrapper {
+    margin-top: 3rem;
+}
+
+.oftenOrder {
+    font-size: 26px;
+    margin-left: 42px;
+    transform: translateY(-11px);
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 16px;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    padding: 20px;
+    margin-left: 43px;
+}
+
+.card:hover {
+    box-shadow: 0 0px 60px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    width: 140px;
+    transition: 0.1s ease-in-out;
+}
+
+.img:hover {
+    transform: translateY(-10px);
+}
+
+.description {
+    font-size: 15px;
+}
+
+.NewPrice {
+    transform: translateY(3px);
+
+}
+
+.OldPrice {
+    text-decoration: line-through;
+    transform: translateY(3px);
+    color: rgb(71, 71, 71);
+}
+
+.withoutPig {
+    display: flex;
+    transform: translateX(-800px);
+    margin-top: 30px;
+}
+
+.iconWithoutPig {
+    height: 40px;
+    transform: translateY(162px);
+    margin-left: 7rem;
+}
+
+.TextOneWithoutPig {
+    width: 120px;
+    font-size: 13px;
+    margin-left: 5px;
+    transform: translateY(165px);
+}
+
+.TextTwoWithoutPig {
+    color: rgba(0, 0, 0, 0.724);
+    font-size: 13px;
+    width: 283px;
+    transform: translateY(183px);
+    margin-left: -120px;
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Пиццы",
+        "path": "/",
+        "categoriesOne": "categoriesOne"
+    },
+    {
+        "id": 2,
+        "name": "Закуски",
+        "path": "Snacks",
+        "categoriesTwo": "categoriesTwo"
+    },
+    {
+        "id": 3,
+        "name": "Напитки",
+        "path": "Drinks",
+        "categoriesThree": "categoriesThree"
+    },
+    {
+        "id": 4,
+        "name": "Дессерты",
+        "path": "Desserts",
+        "categoriesFour": "categoriesFour"
+    },
+    {
+        "id": 5,
+        "name": "Акции",
+        "path": "Stocks"
+    }
+]

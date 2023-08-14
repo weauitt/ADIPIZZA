@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "ADI PIZZA",
+        "aboutAs": "О нас"
+    },
+    {
+        "id": 2,
+        "job": "Работа",
+        "jobOpenings": "Вакансии",
+        "contacts": "Контакты"
+    },
+    {
+        "id": 3,
+        "delivery": "Доставка",
+        "deliveryAndPayment": "Доставкa и оплата"
+    }
+]
