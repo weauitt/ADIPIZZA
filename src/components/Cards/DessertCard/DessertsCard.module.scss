@@ -1,0 +1,210 @@
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 26px;
+
+}
+
+.MenuDesserts {
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+
+.card {
+  font-size: 12px;
+  border-radius: 15px;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 26px 39px;
+  width: 209px;
+  height: 498px;
+  margin: 6px;
+  margin-right: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  color: black;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.DessertName {
+  transform: translateX(-21px);
+  font-size: 12px;
+  width: 260px;
+  margin: 16px 0px
+}
+
+.desc {
+  color: rgb(76, 76, 76);
+}
+
+.price {
+  margin-top: 11px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  transform: translateY(13px);
+}
+
+.fixBag {
+  margin-top: -20px;
+}
+
+.btn {
+  margin-left: 17px;
+  margin-top: 17px;
+  border: 2px solid #d3d3d3;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  width: 191px;
+}
+
+.btn:disabled {
+  pointer-events: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.imgDessert {
+  width: 204px;
+  transform: translateX(-10px);
+  transition: 0.3s ease-in-out;
+}
+
+.FixOne {
+  .DessertName {
+    font-size: 11px;
+  }
+
+  .price {
+    margin-top: 15px;
+  }
+}
+
+.FixTwo {
+  .price {
+    margin-top: 57px;
+  }
+}
+
+.FixThree {
+  .price {
+    margin-top: 57px;
+  }
+}
+
+.FixFour {
+  height: 470px;
+
+  .price {
+    margin-top: 39px;
+  }
+}
+
+.FixFive {
+  height: 470px;
+
+  .price {
+    margin-top: 56px;
+  }
+}
+
+.FixSix {
+  height: 470px;
+}
+
+.FixSeven {
+  height: 470px;
+
+  .price {
+    margin-top: 24px;
+  }
+}
+
+.FixEight {
+  height: 430px;
+
+  .price {
+    margin-top: 18px;
+  }
+}
+
+.FixSmallText {
+  height: 430px;
+
+  .DessertName {
+    font-size: 10px;
+  }
+}
+
+.FixNine {
+  height: 430px;
+
+  .price {
+    margin-top: 28px;
+  }
+}
+
+.FixTen {
+  height: 430px;
+
+  .price {
+    margin-top: 14px;
+  }
+}
+
+.FixEleven {
+  .price {
+    margin-top: 55px;
+  }
+}
+
+.FixTwelve {
+  .price {
+    margin-top: 70px;
+  }
+}
+
+.FixThirteen {
+  .DessertName {
+    font-size: 11px;
+  }
+
+  .price {
+    margin-top: 15px;
+  }
+}
+
+.FixFourteen {
+  .price {
+    margin-top: 56px;
+  }
+}
+
+.FixFifteen {
+  .price {
+    margin-top: 29px;
+  }
+}
+
+.FixSixteen {
+  .desc{
+  font-size:11px ;
+  }
+}

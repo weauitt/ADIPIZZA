@@ -1,7 +1,7 @@
 .list {
     display: flex;
     margin-left: 45px;
-    margin-top: 110px;
+    margin-top: 149px;
 }
 
 .textOne {
@@ -120,4 +120,32 @@
     margin-left: 39rem;
     transform: translateY(-38px);
     box-shadow: inset 3px 4px 3px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .close {
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+
+  .close:before, .close:after {
+    position: absolute;
+    left: 55rem;
+    content: " ";
+    top: 600px;
+    height: 21px;
+    width: 3px;
+    background-color: #272727;
+  }
+
+  .close:hover {
+    opacity: 1;
+  }
+
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
   }

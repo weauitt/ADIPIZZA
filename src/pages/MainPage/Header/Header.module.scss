@@ -40,6 +40,7 @@
 }
 
 .logoName {
+  letter-spacing: -2px;
   font-family: 'Lexend Mega', sans-serif;
       color: rgb(0, 0, 0);
   font-size: 30px;
@@ -114,17 +115,32 @@ header {
   background-color: rgb(219, 219, 219);
 }
 
-.korzina {
+.korzinaWithNubmer {
   background-color: rgb(255, 115, 0);
   border-radius: 30px;
-  width: 76px;
+  width: 100px;
   padding: 11px;
   margin-right: 25px;
   color: white;
-  transition: 0.5s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.korzinaWithNubmer:hover {
+  background-color: rgb(35, 35, 35);
+  color: rgb(255, 255, 255);
+}
+
+.korzina{
+  background-color: rgb(255, 115, 0);
+  border-radius: 30px;
+  width: 77px;
+  padding: 11px;
+  margin-right: 25px;
+  color: white;
+  transition: 0.4s ease-in-out;
 }
 
 .korzina:hover {
-  background-color: rgb(219, 219, 219);
-  color: black;
+  background-color: rgb(35, 35, 35);
+  color: rgb(255, 255, 255);
 }

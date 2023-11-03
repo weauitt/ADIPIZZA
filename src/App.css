@@ -3,20 +3,21 @@
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+  list-style: none;
   text-decoration: none;
 }
 
 body {
-  background-color: rgb(115, 115, 115); /* Задний фон */
+  background-color: rgb(182, 182, 182);
   
 }
 
 .background {
-  padding: 25px; /* Отступы для основного фона */
-  /* overflow: hidden; */
+  padding: 25px;
+  overflow: auto;
 }
 
 .wrapper {
-  background-color: rgb(255, 255, 255); /* Основной фон */
+  background-color: rgb(255, 255, 255); 
   border-radius: 20px;
 }
