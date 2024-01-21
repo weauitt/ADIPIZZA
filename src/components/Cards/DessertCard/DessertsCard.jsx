@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React from 'react'
-import styles from '../css/DessertsCard.module.css'
+import styles from '../css/../../../utils/css/DessertsCard.module.css'
 import { setDesertCards, setAddDesserts } from '../../../Redux/slices/Desert';
 import { useDispatch, useSelector } from 'react-redux';
 

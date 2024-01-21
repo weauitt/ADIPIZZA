@@ -1,33 +1,28 @@
+// Ваш текущий код слайса PizzaCardSlice
+
 import { createSlice } from "@reduxjs/toolkit";
 
 export const PizzaCardSlice = createSlice({
   name: "card",
   initialState: {
-    AddPizza: [],
     PizzaCards: [],
-    isLoading: true,
+    AddPizza: [],
+    ActiveType: [], // Изменено на строку
   },
   reducers: {
-    setAddPizza(state, action) {
-      state.AddPizza.push(action.payload);
-    },
     setPizzaCard(state, action) {
       state.PizzaCards = action.payload;
     },
-    setIsLoading(state, action) {
-      state.isLoading = action.payload;
+    setAddPizza(state, action) {
+      state.AddPizza.push(action.payload);
     },
-    updatePizzaType(state, action) {
-      // Найти индекс пиццы с заданным ID
-      const pizzaIndex = state.PizzaCards.findIndex((pizza) => pizza.id === action.payload.id);
-
-      // Если пицца с таким ID найдена, обновить значение type
-      if (pizzaIndex !== -1) {
-        state.PizzaCards[pizzaIndex].type = action.payload.type;
-      }
+    setActiveType(state, action) {
+      state.ActiveType = action.payload;
     }
+    
+    
   },
 });
 
-export const { setAddPizza, setPizzaCard, setIsLoading, updatePizzaType} = PizzaCardSlice.actions;
+export const { setAddPizza, setPizzaCard, setActiveType } = PizzaCardSlice.actions;
 export default PizzaCardSlice.reducer;

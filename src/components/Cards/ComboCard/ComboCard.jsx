@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../css/ComboCard.module.css'
+import styles from '../../../utils/css/ComboCard.module.css'
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { setAddCombo, setComboCards } from '../../../Redux/slices/Combo';

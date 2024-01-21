@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../css/Drinks.module.css'
+import styles from '../css/../../../utils/css/Drinks.module.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { setAddDrinks } from '../../../Redux/slices/Drink'
 import axios from 'axios';
