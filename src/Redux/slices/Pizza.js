@@ -7,7 +7,8 @@ export const PizzaCardSlice = createSlice({
   initialState: {
     PizzaCards: [],
     AddPizza: [],
-    ActiveType: [], // Изменено на строку
+    ActiveType: [],
+    ActiveSize: []
   },
   reducers: {
     setPizzaCard(state, action) {
@@ -18,11 +19,12 @@ export const PizzaCardSlice = createSlice({
     },
     setActiveType(state, action) {
       state.ActiveType = action.payload;
+    },
+    setActiveSize(state, action) {
+      state.ActiveSize = action.payload;
     }
-    
-    
   },
 });
 
-export const { setAddPizza, setPizzaCard, setActiveType } = PizzaCardSlice.actions;
+export const { setAddPizza, setPizzaCard, setActiveType, setActiveSize } = PizzaCardSlice.actions;
 export default PizzaCardSlice.reducer;

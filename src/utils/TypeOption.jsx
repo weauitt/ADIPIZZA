@@ -13,8 +13,8 @@ function TypeOption({ type, id }) {
 
   return (
     <>
-      {type.map((typeOption) => (
-        <label key={typeOption} className={ActiveType && ActiveType.id === id && ActiveType.type === typeOption ? styles.ActiveTradition : styles.radioType}
+      {type.map((typeOption, index) => (
+        <label key={typeOption} className={`${styles.radioType} ${ ActiveType && ActiveType.id === id && ActiveType.type === typeOption ? index === 0 ? styles.ActiveTradition: styles.ActiveThin: ''}`}
           onClick={() => handleTypeClick(typeOption)}>
           <input className={styles.InputRadio} type="radio" value={typeOption} />
           {typeOption}

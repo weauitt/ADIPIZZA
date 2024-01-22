@@ -37,7 +37,7 @@ function PizzaCard() {
 
 
                <TypeOption  type={card.type} id={card.id}/>
-               {/* <SizeOption  size={card.size} id={card.id}/> */}
+               <SizeOption  sizes={card.sizes} id={card.id}/>
               {/* {Object.values(card.sizes).map(sizeValue => (
                 <label className={styles.radioSize} key={sizeValue}>
                   <input className={styles.InputRadio} type="radio" value={sizeValue} checked={ActiveType === sizeValue}
