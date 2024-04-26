@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ADIPIZZA/static/css/main.0852c6e6.css",
+    "main.js": "/ADIPIZZA/static/js/main.7d356ee8.js",
+    "index.html": "/ADIPIZZA/index.html",
+    "main.0852c6e6.css.map": "/ADIPIZZA/static/css/main.0852c6e6.css.map",
+    "main.7d356ee8.js.map": "/ADIPIZZA/static/js/main.7d356ee8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0852c6e6.css",
+    "static/js/main.7d356ee8.js"
+  ]
+}
