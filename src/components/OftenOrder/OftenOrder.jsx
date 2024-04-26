@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './oftenCard.module.css'
 import { Context } from '../../pages/MainPage/MainPage'
+import { useSelector } from 'react-redux'
 
 function OftenOrder() {
-  const { OftOrdCard } = React.useContext(Context)
+  const OftOrdCard = useSelector(state => state.OftOrdCard.OftOrdCard)
   const oftenOrder = 'Часто заказывают'
 
   return (

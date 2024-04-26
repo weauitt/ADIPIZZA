@@ -25,7 +25,7 @@ function Snacks({ img, name, desc, price }) {
     const pushSnacks = {img, name, desc, price}
     dispatch(setAddSnacks(pushSnacks))
   }
-  const search = useSelector((state) => state.filter.search)
+  const search = useSelector((state) => state.Categories.search)
 
 
   const SnacksCard = Snacks ? Snacks.filter(card => card.name.toLowerCase().includes(search.toLowerCase())) : [];

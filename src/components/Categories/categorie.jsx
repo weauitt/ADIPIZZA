@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Caategorie.css';
-import { setActiveIndex, setSearch, setValueSearch } from '../../Redux/slices/filterSlices';
+import { setActiveIndex, setSearch, setValueSearch } from '../../Redux/slices/Categories';
 import { useDispatch, useSelector } from 'react-redux';
 import debounce from 'lodash.debounce';
 
 function Categorie() {
   const dispatch = useDispatch();
-  const ActiveIndex = useSelector((state) => state.filter.ActiveIndex);
+  const ActiveIndex = useSelector((state) => state.Categories.ActiveIndex);
 
   useEffect(() => {
     const lastActiveIndex = localStorage.getItem('lastActiveIndex');
@@ -23,7 +23,7 @@ function Categorie() {
 
 
   
-  const valueSearch = useSelector((state) => state.filter.valueSearch);
+  const valueSearch = useSelector((state) => state.Categories.valueSearch);
 
   const debouncedSearch = debounce((str) => {
     dispatch(setSearch(str));

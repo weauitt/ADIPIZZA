@@ -22,8 +22,8 @@ function ComboCard({ img, name, desc, price }) {
     const pushSnacks = {img, name, desc, price}
     dispatch(setAddCombo(pushSnacks))
   }
-  const search = useSelector((state) => state.filter.search)
-
+  const search = useSelector((state) => state.Categories.search)
+  
 
   const ComboCard = Combo ? Combo.filter(card => card.name.toLowerCase().includes(search.toLowerCase())) : [];
 

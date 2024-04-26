@@ -2,17 +2,10 @@ import React from 'react'
 import styles from '../css/Header.module.css'
 import icon from '../../../assets/icon.png'
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 function Header() {
-    const { AddPizza } = useSelector(state => state.Pizza);
-    const { AddSnacks } = useSelector(state => state.Snacks);
-    const { AddDrinks } = useSelector(state => state.Drink);
-    const { AddDesserts } = useSelector(state => state.Desert);
-    const { AddCombo } = useSelector(state => state.Combo);
+ 
 
-    const totalItemsInCart = AddPizza.length + AddSnacks.length + AddDrinks.length + AddDesserts.length + AddCombo.length
-    const KorzinaClass = totalItemsInCart >= 1 ? styles.korzinaWithNubmer : styles.korzina;
 
     return (
     <div className={styles.Navbar}>
@@ -36,7 +29,7 @@ function Header() {
                     <ul>
                         <Link to='/Login'><li className={styles.join}>Вход</li></Link>
                         <Link to='/Korzina'>
-                       <li className={KorzinaClass}>Корзина {totalItemsInCart >= 1 ? totalItemsInCart : '' }</li>
+                       <li className={styles.korzina}>Корзина </li>
                         </Link>
                     </ul>
                 </div>

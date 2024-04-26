@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
-import filter from './slices/filterSlices'
+import Categories from './slices/Categories'
+import OftOrdCard from './slices/OftOrdCard'
 import Pizza from './slices/Pizza'
 import Snacks from './slices/Snacks'
 import Drink from './slices/Drink'
@@ -8,12 +9,13 @@ import Combo from './slices/Combo'
 
 export default configureStore({
   reducer: {
-    filter,
+    Categories,
+    OftOrdCard,
     Pizza,
     Snacks,
     Drink,
     Desert,
-    Combo
+    Combo,
   },
 })
  

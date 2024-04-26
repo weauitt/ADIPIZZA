@@ -1,0 +1,44 @@
+.radioType {
+  margin: auto;
+  margin-top: 16px;
+  margin-left: 18px;
+  margin-right: 8px;
+  position: relative;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.ActiveTradition {
+  background-color: #ffffff;
+  margin: auto;
+  margin-bottom: 42px;
+  padding: 13px 12px 11px 14px;
+  margin-left: 4px;
+  margin-right: -4px;
+  border-radius: 7px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.ActiveThin {
+  background-color: #ffffff;
+  margin: auto;
+  margin-bottom: 42px;
+  padding: 13px 13px 11px 13px;
+  margin-left: 1px;
+  margin-right: -1px;
+  border-radius: 7px;
+  font-size: 13px;
+  transform: translateX(4px);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.InputRadio {
+  display: none;
+}
